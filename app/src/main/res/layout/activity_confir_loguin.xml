@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.daniel.fedpapers.ConfirLoguinActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            app:srcCompat="@drawable/fedpapers" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:text="Insira os números recebidos por sms"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="178dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="217dp"
+                android:layout_height="48dp"
+                android:layout_alignLeft="@+id/editText3"
+                android:layout_alignStart="@+id/editText3"
+                android:layout_below="@+id/editText3"
+                android:layout_marginTop="35dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="onClickEntrar"
+                android:text="Verificar"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="238dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="215dp"
+                android:layout_height="48dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Reenviar SMS"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="298dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/button"
+                android:layout_alignLeft="@+id/button"
+                android:layout_alignStart="@+id/button" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

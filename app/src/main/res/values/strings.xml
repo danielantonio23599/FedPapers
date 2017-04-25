@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FedPapers</string>
+    <string name="action_settings">Configuração</string>
+    <string name="action_delete">Deletar</string>
+
+
+</resources>
