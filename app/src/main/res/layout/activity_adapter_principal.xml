@@ -65,7 +65,7 @@
 
                 <TextView
                     android:id="@+id/tvDH"
-                    android:layout_width="304dp"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="TextView"
                     android:textColor="@android:color/background_dark" />
